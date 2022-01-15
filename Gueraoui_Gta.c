@@ -1,16 +1,3 @@
-/** -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ **/
-/** __________ Saida University Dr. Moulay Tahar ___________ **/
-/** _____________ Algorithmic & data structure _____________ **/
-/** ___________ Mini project in C : Linked Lists ___________ **/
-/** ________________ Air traffic management ________________ **/
-/** __________________ Dr. Tayeb BAHRAM ____________________ **/
-/** _____________ First name : Mohamed Ilyes _______________ **/
-/** _____________ Family name : Gueraoui ___________________ **/
-/** _______________ Group : 03 _____________________________ **/
-/** _______________ Promotion : 2020/2021 __________________ **/
-/** _-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ **/
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>  //Using windows.h library for change texts color with collection of functions -
@@ -107,4 +94,3 @@ int main()
     free(s);
     return 0;
 }
-/*** ===> Copyright © 2020/2021 Mohamed Ilyes Gueraoui, All Rights Reserved. <=== ***/
