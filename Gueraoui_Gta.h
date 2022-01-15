@@ -41,33 +41,6 @@ struct Airplanes *s=NULL;
 
 
 /*********| Menus Procedures |*********/
-//0) /**Procedure presenting this program**/
-void Introduction(void)
-{
-    //this collection of function to change text color;
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);printf("\n\t\t   /** -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ **/\n\t\t   /** ________");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);printf(" Universit%c de Sa%cda Dr. Moulay Tahar ", 130, 139);
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);printf("__________ **/\n\t\t   /** _________");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);printf(" Algorithmique & structure de donn%ces ", 130);
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);printf("_________ **/\n\t\t   /** ________");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);printf(" Mini projet en C : Les Listes Cha%cn%ces ", 140,130);
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);printf("________ **/\n\t\t   /** _____________");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);printf(" La gestion du trafic a%crien ", 130);
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9); printf("______________ **/\n\t\t   /** _________________ ");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);printf("Dr. Tayeb BAHRAM ");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);printf("_____________________ **/\n\t\t   /** _______________ ");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);printf("Pr%cnom : Mohamed Ilyes ", 130);
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);printf("_________________ **/\n\t\t   /** _______________ ");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);printf("Nom : Gueraoui ");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);printf("_________________________ **/\n\t\t   /** _______________ ");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);printf("Groupe : 03 ");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);printf("____________________________ **/\n\t\t   /** _______________ ");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);printf("Promotion : 2020/2021 ");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 9);printf("__________________ **/\n\t\t   /** _-_-_-_-_-_-_--_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ **/\n\n\n");
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
-}
-
-
 
 //1) Procedure Display menu 1;
 void Display_menu1(void)
@@ -1017,4 +990,3 @@ Airplanes *Display_aircraft_lists(void)
 {
 
 }**/
-/*** ===> Copyright © 2020/2021 Mohamed Ilyes Gueraoui, All Rights Reserved. <=== ***/
