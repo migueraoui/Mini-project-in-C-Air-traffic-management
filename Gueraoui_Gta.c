@@ -11,8 +11,6 @@ int main()
     char choice = '0';
     int test = 1;
 
-    Introduction();  // for presenting this program;
-
     complete_the_list_of_planes_1(); //Display Menu 1 and Fill information;
     EXIT_Terminal(); //Explanation in header file;
 
